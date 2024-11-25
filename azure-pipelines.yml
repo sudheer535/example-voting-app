@@ -26,6 +26,5 @@ stages:
   jobs:
   - job: Build
     displayName: Build
-    pool:
-      vmImage: $(name)
+   
     
